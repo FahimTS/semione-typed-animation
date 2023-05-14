@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+}
+body{
+    font-family:Poppins,sans-serif;
+    color: #4c4d4d;
+    background-color: #ddd;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+#header{
+    position: relative;
+}
+.primary-wrap{
+    background-image: url(./img/intro-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+}
+.primary-wrap::before{
+    content: "";
+    background: #4d4c4cd4;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.primary {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.primary-logo h1 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.primary-menu ul {
+    display: flex;
+    gap: 40px;
+}
+
+.primary-menu ul li {
+    color: hsla(0,0%,98%,.9);
+}
+
+.primary-menu ul li:first-child {color: #20c997;}
+
+.primary-socail ul {
+    display: flex;
+    gap: 31px;
+}
+
+.primary-socail ul li {
+    font-size: 20px;
+}
+
+.primary-socail ul li a i {
+    color: #eee;
+}
+.primary-details {
+    position: absolute;
+    top: 50%;
+    /* left: 39%; */
+    width: 100%;
+    transform: translateY(-50%);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+header#header {
+    position: relative;
+}
+
+.primary-content h1 {
+    font-size: 23px;
+    /* overflow: hidden; */
+    /* text-align: center; */
+    /* display: block; */
+    /* position: absolute; */
+    /* left: 177px; */
+    /* margin-top: -20px; */
+}
+.primary-title h1 {
+    font-size: 65px;
+}
+
+.primary-title h1 span {
+    font-size: 55px;
+}
